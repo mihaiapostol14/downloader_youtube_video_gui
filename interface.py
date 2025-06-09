@@ -8,10 +8,10 @@ class Frame(customtkinter.CTkFrame):
     def __init__(self, master, **kwargs):
         super().__init__(master, **kwargs)
         # add widgets to app
-        self.label = customtkinter.CTkLabel(self, text='Insert A Youtube Video Link')
+        self.label = customtkinter.CTkLabel(self, text='Youtube Video Downloader', font=('Arial',20))
         self.label.pack(padx=10, pady=10)
 
-        self.url_entry = customtkinter.CTkEntry(self, width=350, height=40)
+        self.url_entry = customtkinter.CTkEntry(self, width=350, height=40,placeholder_text='Insert A Youtube Video Link')
         self.url_entry.pack(padx=10, pady=10)
 
         self.download_button = customtkinter.CTkButton(self, text='Download video', command=self.download_video)
