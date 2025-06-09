@@ -32,7 +32,7 @@ git clone https://github.com/mihaiapostol14/downloader_youtube_video_gui.git
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the main script (e.g., `python main.py` or the relevant file).
+3. Run the main script (e.g., `python interface.py` or the relevant file).
 
 ## Contributing
 Feel free to contribute by forking the repository and opening pull requests.
